@@ -1,0 +1,36 @@
+.login-box {
+    margin: 0 auto;
+    margin-top: 100px;
+    border:1px solid #2F4056;
+    width: 400px;
+    height: 300px;
+}
+
+.login-title {
+    background-color: #2F4056;
+    height: 80px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login-content {
+    background-color: white;
+    height: 218px;
+}
+
+.input-group {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.input-group .input-title {
+    text-align: right;
+}
+
+.input-group .input-box {
+    text-align: left;
+}
