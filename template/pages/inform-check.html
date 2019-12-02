@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>身份录入</title>
+    <link rel="stylesheet" href="../../static/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../static/assets/css/template.css"/>
+    <link rel="stylesheet" href="../../static/assets/css/inform-check.css">
+</head>
+<body class="default-body">
+    <div class="header row">
+        <div class="col-md-2 header-title">
+            人脸识别系统
+        </div>
+        <div class="col-md-9">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="main.html">视频监控</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="inform-check.html">身份录入</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="history.html">历史记录</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sign-out col-md-1">
+            <i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;注销
+        </div>
+    </div>
+    <div class="container person-update">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="../../static/assets/image/person1.png">
+            </div>
+            <div class="col-md-4 person-info">
+                <div class="row">
+                    <div><label>角色信息</label></div>
+                    <select>
+                        <option>业主</option>
+                        <option>租户</option>
+                    </select>
+                    <select>
+                        <option>门牌号</option>
+                        <option>1111</option>
+                    </select>
+                    <select>
+                        <option>亲友关系</option>
+                        <option>302</option>
+                    </select>
+                </div>
+                <div class="left">
+                    <input class="btn btn-primary" value="确认"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
