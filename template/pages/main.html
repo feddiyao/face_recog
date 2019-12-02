@@ -4,21 +4,93 @@
     <meta charset="UTF-8">
     <title>视频监控页面</title>
     <link rel="stylesheet" href="../../static/assets/bootstrap/css/bootstrap.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../static/assets/css/template.css">
+    <link rel="stylesheet" href="../../static/assets/css/main.css">
 </head>
 <body class="default-body">
-    <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-            <li class="active">
-                <a href="#">
-                    Home
-                </a>
-            </li>
-        </ul>
+    <div class="header row">
+        <div class="col-md-2 header-title">
+            人脸识别系统
+        </div>
+        <div class="col-md-9">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">视频监控</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">身份录入</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">历史记录</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sign-out col-md-1">
+            <i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp;登出
+        </div>
     </div>
-    <div class="header">人脸识别系统</div>
-    <div class="content">
 
+    <div class="content container">
+        <div class="live-video">
+            <div class="video-title">2019.5.23 某小区南门</div>
+            <video poster="../../static/assets/image/video.png">
+                <source src="movie.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="person-list row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../../static/assets/image/person1.png">
+                    </div>
+                    <div class="col-md-6">
+                       <table class="table v-center">
+                           <th>身份</th>
+                           <th>准确率</th>
+                           <tr>
+                               <td>业主</td>
+                               <td>90%</td>
+                           </tr>
+                           <tr>
+                               <td>租户</td>
+                               <td>30%</td>
+                           </tr>
+                           <tr>
+                               <td>亲友</td>
+                               <td>50%</td>
+                           </tr>
+                       </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="../../static/assets/image/person1.png">
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table v-center">
+                            <th>身份</th>
+                            <th>准确率</th>
+                            <tr>
+                                <td>业主</td>
+                                <td>90%</td>
+                            </tr>
+                            <tr>
+                                <td>租户</td>
+                                <td>30%</td>
+                            </tr>
+                            <tr>
+                                <td>亲友</td>
+                                <td>50%</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
