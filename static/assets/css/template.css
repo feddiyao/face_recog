@@ -30,6 +30,11 @@
     box-shadow: 5px 0px 0px 0px black;
 }
 
+.header .nav>li .active {
+    background-color: white;
+    color: black;
+}
+
 .header .nav>li>a:focus {
     background-color: white;
     color: black;
